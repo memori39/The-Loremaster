@@ -1,0 +1,522 @@
+<HBProfile>
+ 
+   <Name>[pWoW] Horde The Loremaster (Kalimdor = Stonetalon Mountains)</Name>
+   <MinLevel>1</MinLevel>
+   <MaxLevel>86</MaxLevel>
+   
+   <MinDurability>0.4</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+    
+   <MailGrey>False</MailGrey>
+   <MailWhite>True</MailWhite>
+   <MailGreen>True</MailGreen>
+   <MailBlue>False</MailBlue>
+   <MailPurple>False</MailPurple>
+   
+   <SellGrey>True</SellGrey>
+   <SellWhite>False</SellWhite>
+   <SellGreen>False</SellGreen>
+   <SellBlue>False</SellBlue>
+   <SellPurple>False</SellPurple>
+   
+   <TargetElites>False</TargetElites>
+   
+   <AvoidMobs>
+		
+	</AvoidMobs>
+   
+	<Blackspots>
+		<Blackspot X="201.6773" Y="182.5522" Z="65.21724" Radius="46.86979" />
+		<Blackspot X="163.0794" Y="-196.5987" Z="54.30292" Radius="32.19969" Height="17.08286" />
+		<Blackspot X="207.0017" Y="-365.3982" Z="35.51946" Radius="58.34109" Height="25.04944" />
+		<Blackspot X="1241.437" Y="367.5593" Z="69.1164" Radius="23.25692" />
+		<Blackspot X="410.1957" Y="-275.7261" Z="73.22937" Radius="21.65344" />
+		<!-- fucking tents-->
+		<Blackspot X="824.149" Y="243.3503" Z="22.35397" Radius="4.153905" />
+		<Blackspot X="838.371" Y="187.7459" Z="28.88792" Radius="4.221832" />
+		<Blackspot X="801.2947" Y="210.3936" Z="26.07803" Radius="3.97524" />
+		<Blackspot X="780.1612" Y="247.4863" Z="22.68055" Radius="4.49275" />
+		<Blackspot X="755.2247" Y="262.7801" Z="24.50546" Radius="4.337831" />
+		<Blackspot X="780" Y="277.5298" Z="21.66484" Radius="4.303502" />
+		<Blackspot X="824.187" Y="243.433" Z="22.37395" Radius="4.176529" />
+		<Blackspot X="855.6503" Y="280.9829" Z="21.5002" Radius="4.445183" />
+		<Blackspot X="870.3708" Y="294.6019" Z="22.93655" Radius="4.026125" />
+		<Blackspot X="884.6724" Y="328.8228" Z="22.07458" Radius="4.526489" />
+		<Blackspot X="911.5462" Y="330.0123" Z="21.64136" Radius="3.894845" />
+		<Blackspot X="926.6294" Y="304.3252" Z="22.99557" Radius="4.071753" />
+		<Blackspot X="963.6813" Y="286.0945" Z="21.60031" Radius="4.511909" />
+		<Blackspot X="977.1063" Y="226.1319" Z="22.35419" Radius="4.25415" />
+		<Blackspot X="1013.862" Y="229.4179" Z="22.92775" Radius="3.979945" />
+	</Blackspots>
+   
+	<Mailboxes>
+		<Mailbox X="885.3259" Y="-3.841524" Z="92.67486" />
+	</Mailboxes>
+	<Vendors>
+		<Vendor Name="Vernal the Fixer" Entry="41675" Type="Repair" X="1543.002" Y="-494.7188" Z="56.84975" />
+		<Vendor Name="Barshuk Heavyhammer" Entry="41890" Type="Repair" X="859.012" Y="26.2778" Z="92.97347" />
+    </Vendors>
+	
+	
+	<!-- Stonetalon Overrides-->
+	<Quest Name="I Got Your Parts Right Here..." Id="26045">
+		<Objective Type="CollectItem" ItemId="56575" CollectCount="10">
+			<Hotspots>
+				<Hotspot X="853.5416" Y="-199.279" Z="12.65958" />
+				<Hotspot X="348.257" Y="-241.9398" Z="66.46511" />
+				<Hotspot X="506.9088" Y="-46.76331" Z="33.59319" />
+				<Hotspot X="737.9539" Y="-21.93835" Z="16.01012" />
+				<Hotspot X="830.3874" Y="-55.83598" Z="14.27708" />
+				<Hotspot X="870.5544" Y="-99.13245" Z="10.1672" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	<Quest Id="26026" Name="Dream of a Better Tomorrow">
+		<Objective Type="CollectItem" ItemId="55227" CollectCount="1">
+			<CollectFrom>
+				<GameObject Name="BD-816 War Apparatus" Id="203088" />	
+			</CollectFrom>
+			<Hotspots>
+				<Hotspot X="1606.503" Y="182.9283" Z="104.6541" />
+			</Hotspots>
+		</Objective>
+		<Objective Type="CollectItem" ItemId="55221" CollectCount="1">
+			<CollectFrom>
+				<GameObject Name="Mechanized Fire" Id="203174" />
+			</CollectFrom>
+			<Hotspots>
+				<Hotspot X="1173.369" Y="180.5488" Z="30.71499" />
+			</Hotspots>
+		</Objective>
+		<Objective Type="CollectItem" ItemId="55222" CollectCount="1">
+			<CollectFrom>
+				<GameObject Name="Mechanized Ice" Id="203176" />
+			</CollectFrom>
+			<Hotspots>
+				<Hotspot X="1436.374" Y="-0.8464729" Z="38.82772" />
+			</Hotspots>
+		</Objective>
+		<Objective Type="CollectItem" ItemId="55223" CollectCount="1">
+			<CollectFrom>
+				<GameObject Name="Mechanized Air" Id="203175" />
+			</CollectFrom>
+			<Hotspots>
+				<Hotspot X="878.366" Y="365.2167" Z="23.17981" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	<Quest Id="26063" Name="The Queen and Her Court">
+		<Objective Type="KillMob" MobId="41185" KillCount="1">
+			<Hotspots>
+				<Hotspot X="453.6709" Y="545.5909" Z="77.65514" />
+				<Hotspot X="526.0124" Y="620.1763" Z="74.63685" />
+				<Hotspot X="616.317" Y="573.0583" Z="75.67552" />
+				<Hotspot X="588.1871" Y="513.2909" Z="79.85455" />
+				<Hotspot X="462.3428" Y="488.9256" Z="75.72678" />
+			</Hotspots>
+		</Objective>
+		<Objective Type="KillMob" MobId="4006" KillCount="10">
+			<Hotspots>
+				<Hotspot X="453.6709" Y="545.5909" Z="77.65514" />
+				<Hotspot X="526.0124" Y="620.1763" Z="74.63685" />
+				<Hotspot X="616.317" Y="573.0583" Z="75.67552" />
+				<Hotspot X="588.1871" Y="513.2909" Z="79.85455" />
+				<Hotspot X="462.3428" Y="488.9256" Z="75.72678" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	<Quest Id="26061" Name="Da Voodoo: Ram Horns">
+		<Objective Type="CollectItem" ItemId="56797" CollectCount="6">
+			<CollectFrom>
+			</CollectFrom>
+			<Hotspots>
+				<Hotspot X="102.4104" Y="276.126" Z="50.90562" />
+				<Hotspot X="82.54157" Y="187.4014" Z="30.8979" />
+				<Hotspot X="26.78358" Y="166.0954" Z="31.75104" />
+				<Hotspot X="51.03397" Y="66.61592" Z="31.01041" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	<Quest Id="26064" Name="Fight On Their Stomachs">
+		<Objective Type="CollectItem" ItemId="56041" CollectCount="8">
+			<CollectFrom>
+			</CollectFrom>
+			<Hotspots>
+				<Hotspot X="102.4104" Y="276.126" Z="50.90562" />
+				<Hotspot X="82.54157" Y="187.4014" Z="30.8979" />
+				<Hotspot X="26.78358" Y="166.0954" Z="31.75104" />
+				<Hotspot X="51.03397" Y="66.61592" Z="31.01041" />
+			</Hotspots>
+		</Objective>
+	</Quest>	
+	<Quest Id="26047" Name="And That's Why They Call Them Peons...">
+		<Objective Type="KillMob" MobId="41989" KillCount="10">
+			<Hotspots>
+				<Hotspot X="799.9855" Y="-39.28933" Z="15.06614" />
+				<Hotspot X="690.6442" Y="-26.9097" Z="23.88509" />
+				<Hotspot X="498.642" Y="-84.9249" Z="35.07824" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+	<Quest Id="26046" Name="Between a Rock and a Hard Place">
+		<Objective Type="KillMob" MobId="41993" KillCount="12">
+			<Hotspots>
+				<Hotspot X="799.9855" Y="-39.28933" Z="15.06614" />
+				<Hotspot X="690.6442" Y="-26.9097" Z="23.88509" />
+				<Hotspot X="498.642" Y="-84.9249" Z="35.07824" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+  
+  
+   <QuestOrder>
+
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="False" LearnFlightPaths="True" UseFlightPaths="False" />
+		<CustomBehavior File="Message" LogColor="SpringGreen" Text="[pWoW] Horde The Loremaster (Kalimdor = Stonetalon Mountains)." />
+		<CustomBehavior File="Message" LogColor="SpringGreen" Text="Compiling Quests." />
+		<CustomBehavior File="Message" LogColor="SpringGreen" Text="-----" />
+		<CustomBehavior File="Message" LogColor="SpringGreen" Text="Setting UseFlightPaths to false." />
+		<CustomBehavior File="Message" LogColor="SpringGreen" Text="-----" />
+		<CustomBehavior File="Message" LogColor="SpringGreen" Text="Setting LearnFlightPaths to true." />
+		<CustomBehavior File="Message" LogColor="SpringGreen" Text="-----" />
+		<CustomBehavior File="Message" LogColor="SpringGreen" Text="Setting PullDistance to 30." />
+		<CustomBehavior File="Message" LogColor="SpringGreen" Text="-----" />
+		<CustomBehavior File="Message" LogColor="SpringGreen" Text="WAIT" />		
+		<CustomBehavior File="Message" Text="Check Quests" LogColor="Cornflowerblue" />
+
+<CustomBehavior File="Message" Text="Compiling Stonetalon Mount Quests" LogColor="Green" />
+
+		<PickUp QuestName="Barrier to Entry" QuestId="25999" GiverName="Saurboz" GiverId="34341" />
+		<While Condition="!IsQuestCompleted(25999) &amp;&amp; HasQuest(25999)">
+			<CustomBehavior File="UseGameObject" QuestId="25999" ObjectId="203413"  NumOfTimes="1" X="1638.284" Y="-439.8433" Z="73.38988"   />
+		</While>
+		<TurnIn QuestName="Barrier to Entry" QuestId="25999" TurnInName="Saurboz" TurnInId="34341" />
+		<PickUp QuestName="The Missing Blastgineer" QuestId="26001" GiverName="Saurboz" GiverId="34341" />
+		<PickUp QuestName="Lessons from the Lost Isles" QuestId="26003" GiverName="Kilag Gorefang" GiverId="40926" />
+		<Objective QuestName="Lessons from the Lost Isles" QuestId="26003" Type="KillMob" MobId="41865" KillCount="12" />
+		<TurnIn QuestName="The Missing Blastgineer" QuestId="26001" TurnInName="Blastgineer Fuzzwhistle" TurnInId="40901" />
+		<PickUp QuestName="Alliance Attack Plans" QuestId="26002" GiverName="Blastgineer Fuzzwhistle" GiverId="40901" />
+		<Objective QuestName="Alliance Attack Plans" QuestId="26002" Type="CollectItem" ItemId="56469" CollectCount="1" />
+		<TurnIn QuestName="Lessons from the Lost Isles" QuestId="26003" TurnInName="Kilag Gorefang" TurnInId="40926" />
+		<TurnIn QuestName="Alliance Attack Plans" QuestId="26002" TurnInName="Saurboz" TurnInId="34341" />
+		<PickUp QuestName="Krom'gar Fortress" QuestId="26004" GiverName="Saurboz" GiverId="34341" />
+		<If Condition="Me.Level &gt;= 28 &amp;&amp; HasQuest(26004)">
+			<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="1" />
+			<CustomBehavior File="WaitTimer" WaitTime="2000" />
+			<CustomBehavior File="RunLua" Lua="LearnTalent(1, 4, 1, 1)" WaitTime="1000" />
+		</If>
+		<TurnIn QuestName="Krom'gar Fortress" QuestId="26004" TurnInName="Overlord Krom'gar" TurnInId="41023" />
+		<PickUp QuestName="Ashes to Ashes" QuestId="26010" GiverName="Overlord Krom'gar" GiverId="41023" />
+		<If Condition="HasQuestAvailable(41023)" >
+			<PickUp QuestName="Seek and Destroy" QuestId="26009" GiverName="Overlord Krom'gar" GiverId="41023" />
+		</If>
+		<PickUp QuestName="Dream of a Better Tomorrow" QuestId="26026" GiverName="Clarissa" GiverId="40907" />
+		<PickUp QuestName="Enemy of the Horde: Marshal Paltrow" QuestId="26011" GiverName="Spy-Mistress Anara" GiverId="40903" />
+		<If Condition="HasQuest(26011) &amp;&amp; !IsQuestCompleted(26011) &amp;&amp; Me.X &gt; 905 &amp;&amp; Me.X &lt; 920 &amp;&amp; Me.Y &lt; 28 &amp;&amp; Me.Y &gt; 17" >
+			<CustomBehavior File="InteractWith" MobId="42028" X="881.3611" Y="16.40972" Z="92.87989" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000" />
+			<CustomBehavior File="RunLua" Lua="SelectGossipAvailableQuest(1) RunMacroText('/click QuestFrameCompleteQuestButton')" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000" />
+			<CustomBehavior File="RunLua" Lua="RunMacroText('/click QuestFrameCompleteQuestButton')" />
+		</If>
+		<Objective QuestName="Enemy of the Horde: Marshal Paltrow" QuestId="26011" Type="KillMob" MobId="41937" KillCount="1" />
+		<While Condition="HasQuest(26010) &amp;&amp; !IsQuestCompleted(26010)">
+			<CustomBehavior File="UseItemOn" QuestId="26010" ItemId="56473" MobId="203431" MobType="Gameobject" Range="10" WaitTime="15000" X="817.5276" Y="212.7845" Z="25.5096" />
+		</While>
+		<Objective QuestName="Dream of a Better Tomorrow" QuestId="26026" Type="CollectItem" ItemId="55223" CollectCount="1" />
+		<While Condition="HasQuest(26026) &amp;&amp; !HasItem(55221)" >
+			<CustomBehavior File="UserSettings" HarvestHerbs="false" HarvestMinerals="false" />
+			<CustomBehavior File="RunLikeHell" AllowCombat="false" >
+				<Hotspot X="1155.759" Y="182.0927" Z="2.834661" />
+			</CustomBehavior>
+			<CustomBehavior File="RunLikeHell" AllowCombat="false" UseCTM="true" WaitTime="100">
+				<Hotspot X="1158.193" Y="185.0837" Z="6.963953" />
+				<Hotspot X="1163.36" Y="192.2676" Z="14.1815" />
+				<Hotspot X="1176.846" Y="181.5223" Z="21.5833" />
+				<Hotspot X="1174.166" Y="181.2594" Z="21.60915" />
+				<Hotspot X="1164.522" Y="188.1569" Z="28.70136" />
+				<Hotspot X="1161.409" Y="183.5894" Z="29.09698" />
+				<Hotspot X="1172.852" Y="180.4384" Z="30.69686" />
+			</CustomBehavior>
+			<CustomBehavior File="UseGameObject" ObjectId="203174" X="1172.381" Y="180.5595" Z="30.76951" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000" />
+			<CustomBehavior File="MyCTM" X="1174.163" Y="175.1722" Z="30.71628" />
+			<CustomBehavior File="MyCTM" X="1187.032" Y="170.125" Z="2.613289" />
+			<CustomBehavior File="UserSettings" HarvestHerbs="true" HarvestMinerals="true" />
+		</While>
+		<Objective QuestName="Dream of a Better Tomorrow" QuestId="26026" Type="CollectItem" ItemId="55222" CollectCount="1" />
+		<PickUp QuestName="BEWARE OF CRAGJAW!" QuestId="26043" GiverName="STAY OUT!" GiverId="203186" GiverType="Object" X="1459.872" Y="69.01884" Z="16.59396"/>
+		<Objective QuestName="BEWARE OF CRAGJAW!" QuestId="26043" Type="CollectItem" ItemId="55239" CollectCount="1" />
+		<Objective QuestName="Dream of a Better Tomorrow" QuestId="26026" Type="CollectItem" ItemId="55227" CollectCount="1" />
+		<If Condition="HasQuest(26009) &amp;&amp; !IsQuestCompleted(26009)" >
+			<Objective QuestName="Seek and Destroy" QuestId="26009" Type="KillMob" MobId="41866" KillCount="20" />
+		</If>
+		<TurnIn QuestName="Ashes to Ashes" QuestId="26010" TurnInName="Overlord Krom'gar" TurnInId="41023" />
+		<If Condition="HasQuest(26009) &amp;&amp; IsQuestCompleted(26009)" >
+			<TurnIn QuestName="Seek and Destroy" QuestId="26009" TurnInName="Overlord Krom'gar" TurnInId="41023" />
+		</If>
+		<PickUp QuestName="Report to Bombgutz" QuestId="26020" GiverName="Overlord Krom'gar" GiverId="41023" />
+		<TurnIn QuestName="Dream of a Better Tomorrow" QuestId="26026" TurnInName="Clarissa" TurnInId="40907" />
+		<TurnIn QuestName="Enemy of the Horde: Marshal Paltrow" QuestId="26011" TurnInName="Spy-Mistress Anara" TurnInId="40903" />
+		<TurnIn QuestName="BEWARE OF CRAGJAW!" QuestId="26043" TurnInName="Spy-Mistress Anara" TurnInId="40903" />
+		<TurnIn QuestName="Report to Bombgutz" QuestId="26020" TurnInName="Chief Blastgineer Bombgutz" TurnInId="40902" />
+		<PickUp QuestName="Where Are the Parts?" QuestId="26044" GiverName="Chief Blastgineer Bombgutz" GiverId="40902" />
+		<PickUp QuestName="Mr. D's Wild Ride" QuestId="26028" GiverName="Clarissa" GiverId="40907" />
+		<If Condition="HasQuest(26028) &amp;&amp; !IsQuestCompleted(26028)" >
+			<CustomBehavior File="UserSettings" LootMobs="false" HarvestHerbs="false" HarvestMinerals="false"/>
+			<CustomBehavior File="26028" QuestId="26028" X="1081.281" Y="21.28194" Z="4.390781" endX="936.7939" endY="-43.59257" endZ="94.04282"  />
+			<CustomBehavior File="UserSettings" LootMobs="true" HarvestHerbs="true" HarvestMinerals="true"/>
+		</If>
+		<TurnIn QuestName="Mr. D's Wild Ride" QuestId="26028" TurnInName="Overlord Krom'gar" TurnInId="41023" />
+		<If Condition="HasItem(56474)">
+			<PickUp QuestName="Orders from Base Camp" QuestId="26016" GiverType="Item" GiverId="56474" />
+			<If Condition="HasItem(2770) &amp;&amp; HasItem(2771) &amp;&amp; MiningSkill.CurrentValue &lt; 115">
+				<CustomBehavior File="MoveTo"  X="864.0837" Y="28.26853" Z="92.97359" />
+				<CustomBehavior File="WaitTimer" WaitTime="300"/> 
+				<CustomBehavior File="RunLua" Lua="CastSpellByID(2656)" />
+				<While Condition="HasItem(2770) &amp;&amp; HasItem(2771) &amp;&amp; MiningSkill.CurrentValue &lt; 115">
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Copper') then DoTradeSkill(i,1) end end" />
+					<CustomBehavior File="WaitTimer" WaitTime="3000"/>
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Tin') then DoTradeSkill(i,1) end end" />
+					<CustomBehavior File="WaitTimer" WaitTime="3000"/>
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Bronze') then DoTradeSkill(i,1) end end" />
+					<CustomBehavior File="WaitTimer" WaitTime="3000"/>
+				</While>
+				<CustomBehavior File="RunLua" Lua="CloseTradeSkill()" />
+			</If>
+			<If Condition="HasItem(2775) &amp;&amp; MiningSkill.CurrentValue &lt; 130">
+				<CustomBehavior File="MoveTo"  X="864.0837" Y="28.26853" Z="92.97359" />
+				<CustomBehavior File="WaitTimer" WaitTime="300"/> 
+				<CustomBehavior File="RunLua" Lua="CastSpellByID(2656)" />
+				<While Condition="HasItem(2775) &amp;&amp; MiningSkill.CurrentValue &lt; 130">
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Silver') then DoTradeSkill(i,1) end end" />
+				</While>
+				<CustomBehavior File="RunLua" Lua="CloseTradeSkill()" />
+			</If>
+			<CustomBehavior File="ForceSetVendor" VendorType="Repair" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000" />
+			<TurnIn QuestName="Orders from Base Camp" QuestId="26016" TurnInName="Overlord Krom'gar" TurnInId="41023" />
+		</If>
+		<TurnIn QuestName="Where Are the Parts?" QuestId="26044" TurnInName="Sergeant Dontrag" TurnInId="41991" />
+		<PickUp QuestName="And That's Why They Call Them Peons..." QuestId="26047" GiverName="Blastgineer Igore" GiverId="41992" />
+		<PickUp QuestName="I Got Your Parts Right Here..." QuestId="26045" GiverName="Sergeant Dontrag" GiverId="41991" />
+		<PickUp QuestName="Between a Rock and a Hard Place" QuestId="26046" GiverName="Scout Utvoch" GiverId="41990" />
+		<While Condition="HasQuest(26047) &amp;&amp; !IsQuestCompleted(26047)">
+			<CustomBehavior File="InteractWith" MobId="41989" NumOfTimes="1" ObjectType="Npc" Range="3" WaitTime="1" X="830.9777" Y="-45.0303" Z="13.11719" />
+		</While>
+		<Objective QuestName="I Got Your Parts Right Here..." QuestId="26045" Type="CollectItem" ItemId="56575" CollectCount="10" />
+		<Objective QuestName="Between a Rock and a Hard Place" QuestId="26046" Type="KillMob" MobId="41993" KillCount="12" />
+		<TurnIn QuestName="Between a Rock and a Hard Place" QuestId="26046" TurnInName="Scout Utvoch" TurnInId="41990" />
+		<TurnIn QuestName="I Got Your Parts Right Here..." QuestId="26045" TurnInName="Sergeant Dontrag" TurnInId="41991" />
+		<TurnIn QuestName="And That's Why They Call Them Peons..." QuestId="26047" TurnInName="Blastgineer Igore" TurnInId="41992" />
+		<PickUp QuestName="Spare Parts Up In Here!" QuestId="26048" GiverName="Sergeant Dontrag" GiverId="41991" />
+		<Objective QuestName="Spare Parts Up In Here!" QuestId="26048" Type="CollectItem" ItemId="56577" CollectCount="1" />
+		<TurnIn QuestName="Spare Parts Up In Here!" QuestId="26048" TurnInName="Chief Blastgineer Bombgutz" TurnInId="40902" />
+		<PickUp QuestName="In Defense of Krom'gar Fortress" QuestId="26058" GiverName="Chief Blastgineer Bombgutz" GiverId="40902" />
+		<While Condition="HasQuest(26058) &amp;&amp; !IsQuestCompleted(26058)">
+			<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="1" />
+			<CustomBehavior File="26058"  />
+			<CustomBehavior File="WaitTimer" WaitTime="1000" />
+		</While>
+		<If Condition="HasQuest(26058) &amp;&amp; IsQuestCompleted(26058)">
+			<If Condition="HasItem(2770) &amp;&amp; HasItem(2771) &amp;&amp; MiningSkill.CurrentValue &lt; 115">
+				<CustomBehavior File="MoveTo"  X="864.0837" Y="28.26853" Z="92.97359" />
+				<CustomBehavior File="WaitTimer" WaitTime="300"/> 
+				<CustomBehavior File="RunLua" Lua="CastSpellByID(2656)" />
+				<While Condition="HasItem(2770) &amp;&amp; HasItem(2771) &amp;&amp; MiningSkill.CurrentValue &lt; 115">
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Copper') then DoTradeSkill(i,1) end end" />
+					<CustomBehavior File="WaitTimer" WaitTime="3000"/>
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Tin') then DoTradeSkill(i,1) end end" />
+					<CustomBehavior File="WaitTimer" WaitTime="3000"/>
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Bronze') then DoTradeSkill(i,1) end end" />
+					<CustomBehavior File="WaitTimer" WaitTime="3000"/>
+				</While>
+				<CustomBehavior File="RunLua" Lua="CloseTradeSkill()" />
+			</If>
+			<If Condition="HasItem(2775) &amp;&amp; MiningSkill.CurrentValue &lt; 130">
+				<CustomBehavior File="MoveTo"  X="864.0837" Y="28.26853" Z="92.97359" />
+				<CustomBehavior File="WaitTimer" WaitTime="300"/> 
+				<CustomBehavior File="RunLua" Lua="CastSpellByID(2656)" />
+				<While Condition="HasItem(2775) &amp;&amp; MiningSkill.CurrentValue &lt; 130">
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Silver') then DoTradeSkill(i,1) end end" />
+				</While>
+				<CustomBehavior File="RunLua" Lua="CloseTradeSkill()" />
+			</If>
+		</If>
+		<TurnIn QuestName="In Defense of Krom'gar Fortress" QuestId="26058" TurnInName="Overlord Krom'gar" TurnInId="41023" />
+		<PickUp QuestName="Eyes and Ears: Malaka'jin" QuestId="26059" GiverName="Overlord Krom'gar" GiverId="41023" />
+		<PickUp QuestName="The Queen and Her Court" QuestId="26063" GiverName="Darn Talongrip" GiverId="11821" />
+		<Objective QuestName="The Queen and Her Court" QuestId="26063" Type="KillMob" MobId="41185" KillCount="1" />
+		<Objective QuestName="The Queen and Her Court" QuestId="26063" Type="KillMob" MobId="4006" KillCount="10" />
+		<TurnIn QuestName="The Queen and Her Court" QuestId="26063" TurnInName="Darn Talongrip" TurnInId="11821" />
+		<TurnIn QuestName="Eyes and Ears: Malaka'jin" QuestId="26059" TurnInName="Witch Doctor Jin'Zil" TurnInId="3995" />
+		<PickUp QuestName="Da Voodoo: Stormer Heart" QuestId="26060" GiverName="Witch Doctor Jin'Zil" GiverId="3995" />
+		<PickUp QuestName="Da Voodoo: Ram Horns" QuestId="26061" GiverName="Witch Doctor Jin'Zil" GiverId="3995" />
+		<PickUp QuestName="Nura Pathfinder" QuestId="26069" GiverName="Witch Doctor Jin'Zil" GiverId="3995" />
+		<PickUp QuestName="Fight On Their Stomachs" QuestId="26064" GiverName="Denni'ka" GiverId="3411" />
+		<Objective QuestName="Da Voodoo: Stormer Heart" QuestId="26060" Type="CollectItem" ItemId="56796" CollectCount="1" />
+		<Objective QuestName="Da Voodoo: Ram Horns" QuestId="26061" Type="CollectItem" ItemId="56797" CollectCount="6" />
+		<Objective QuestName="Fight On Their Stomachs" QuestId="26064" Type="CollectItem" ItemId="56041" CollectCount="8" />
+		<TurnIn QuestName="Da Voodoo: Stormer Heart" QuestId="26060" TurnInName="Witch Doctor Jin'Zil" TurnInId="3995" />
+		<TurnIn QuestName="Da Voodoo: Ram Horns" QuestId="26061" TurnInName="Witch Doctor Jin'Zil" TurnInId="3995" />
+		<PickUp QuestName="Da Voodoo: Resonite Crystal" QuestId="26062" GiverName="Witch Doctor Jin'Zil" GiverId="3995" />
+		<PickUp QuestName="Reinforcements..." QuestId="26066" GiverName="Subjugator Devo" GiverId="42023" />
+		<TurnIn QuestName="Fight On Their Stomachs" QuestId="26064" TurnInName="Denni'ka" TurnInId="3411" />
+		<Objective QuestName="Da Voodoo: Resonite Crystal" QuestId="26062" Type="CollectItem" ItemId="56795" CollectCount="8" />
+		<While Condition="HasQuest(26066) &amp;&amp; !IsQuestCompleted(26066)">
+			<CustomBehavior File="UseItemOn" QuestId="26066" ItemId="56794" MobId="11915" NpcState="Alive" X="-119.0355" Y="215.0531" Z="97.1964" />
+		</While>
+		<TurnIn QuestName="Reinforcements..." QuestId="26066" TurnInName="Subjugator Devo" TurnInId="42023" />
+		<TurnIn QuestName="Da Voodoo: Resonite Crystal" QuestId="26062" TurnInName="Witch Doctor Jin'Zil" TurnInId="3995" />
+		<PickUp QuestName="Jin'Zil's Blessing" QuestId="26067" GiverName="Witch Doctor Jin'Zil" GiverId="3995" />
+		<PickUp QuestName="Kobold Fury!" QuestId="26068" GiverName="Subjugator Devo" GiverId="42023" />
+		<While Condition="HasQuest(26067) &amp;&amp; !IsQuestCompleted(26067)">
+			<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="2000" />
+			<CustomBehavior File="UserSettings" LootMobs="false" HarvestHerbs="false" HarvestMinerals="false"/>
+			<CustomBehavior File="RunMacro" Macro="/petpassive" NumOfTimes="1" WaitTime="1000" />
+			<CustomBehavior File="UseItemOn" QuestId="26067" ItemId="56798" MobId="41360" Range="20" WaitTime="8000" NpcState="Alive" NumOfTimes="12" X="171.7514" Y="-806.8386" Z="-0.294844" />
+			<CustomBehavior File="MoveTo"  X="-45.79181" Y="-258.8874" Z="2.902788" />
+			<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="2000" />
+			<CustomBehavior File="UserSettings" LootMobs="true" HarvestHerbs="true" HarvestMinerals="true"/>
+			<CustomBehavior File="RunMacro" Macro="/petdefensive" NumOfTimes="1" WaitTime="1000" />
+		</While>
+		<If Condition="HasQuest(26068) &amp;&amp; !IsQuestCompleted(26068)">
+			<CustomBehavior File="RunLua" Lua="CallCompanion('MOUNT', 1)" />
+			<CustomBehavior File="WaitTimer" WaitTime="2000" />
+			<CustomBehavior File="RunLikeHell" AllowCombat="false" >
+				<Hotspot X="338.9418" Y="-755.5389" Z="48.78188" />
+			</CustomBehavior>
+		</If>
+		<UseItem ItemId="56799" QuestName="Kobold Fury!" QuestId="26068" X="321.7936" Y="-462.3624" Z="69.59615" />
+		<If Condition="HasQuest(26068) &amp;&amp; IsQuestCompleted(26068)">
+			<CustomBehavior File="MoveTo" X="200.2832" Y="-783.0397" Z="8.129019" />
+			<CustomBehavior File="RunLikeHell" AllowCombat="false" >
+				<Hotspot X="-36.25632" Y="-352.6606" Z="-10.13804" />
+			</CustomBehavior>
+		</If>
+		<TurnIn QuestName="Kobold Fury!" QuestId="26068" TurnInName="Subjugator Devo" TurnInId="42023" />
+		<TurnIn QuestName="Jin'Zil's Blessing" QuestId="26067" TurnInName="Witch Doctor Jin'Zil" TurnInId="3995" />
+		<PickUp QuestName="All's Quiet on the Southern Front" QuestId="26073" GiverName="Witch Doctor Jin'Zil" GiverId="3995" />
+		<If Condition="HasQuest(26073)">
+			<CustomBehavior File="UseTaxi"  MobId="35139" DestName="gar Fortress" X="-114.6441" Y="-263.901" Z="24.00237"  />
+		</If>
+		<TurnIn QuestName="All's Quiet on the Southern Front" QuestId="26073" TurnInName="Overlord Krom'gar" TurnInId="41023" />
+		<PickUp QuestName="Beginning of the End" QuestId="26074" GiverName="Overlord Krom'gar" GiverId="41023" />
+		<If Condition="HasQuest(26074) &amp;&amp; !IsQuestCompleted(26074)">
+			<If Condition="HasItem(2770) &amp;&amp; HasItem(2771) &amp;&amp; MiningSkill.CurrentValue &lt; 115">
+				<CustomBehavior File="MoveTo"  X="864.0837" Y="28.26853" Z="92.97359" />
+				<CustomBehavior File="WaitTimer" WaitTime="300"/> 
+				<CustomBehavior File="RunLua" Lua="CastSpellByID(2656)" />
+				<While Condition="HasItem(2770) &amp;&amp; HasItem(2771) &amp;&amp; MiningSkill.CurrentValue &lt; 115">
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Copper') then DoTradeSkill(i,1) end end" />
+					<CustomBehavior File="WaitTimer" WaitTime="3000"/>
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Tin') then DoTradeSkill(i,1) end end" />
+					<CustomBehavior File="WaitTimer" WaitTime="3000"/>
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Bronze') then DoTradeSkill(i,1) end end" />
+					<CustomBehavior File="WaitTimer" WaitTime="3000"/>
+				</While>
+				<CustomBehavior File="RunLua" Lua="CloseTradeSkill()" />
+			</If>
+			<If Condition="HasItem(2775) &amp;&amp; MiningSkill.CurrentValue &lt; 130">
+				<CustomBehavior File="MoveTo"  X="864.0837" Y="28.26853" Z="92.97359" />
+				<CustomBehavior File="WaitTimer" WaitTime="300"/> 
+				<CustomBehavior File="RunLua" Lua="CastSpellByID(2656)" />
+				<While Condition="HasItem(2775) &amp;&amp; MiningSkill.CurrentValue &lt; 130">
+					<CustomBehavior File="RunLua" Lua="for i=1,GetNumTradeSkills() do a,b,c,d,e,f=GetTradeSkillInfo(i) if strmatch(a,'Smelt Silver') then DoTradeSkill(i,1) end end" />
+				</While>
+				<CustomBehavior File="RunLua" Lua="CloseTradeSkill()" />
+			</If>
+			<CustomBehavior File="ForceSetVendor" VendorType="Repair" />
+			<CustomBehavior File="WaitTimer" WaitTime="1000" />
+			<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="1" />
+			<CustomBehavior File="InteractWith" MobId="42029" X="886.0173" Y="-5.226583" Z="92.67605" />
+		</If>
+		<TurnIn QuestName="Beginning of the End" QuestId="26074" TurnInName="Jibbly Rakit" TurnInId="42033" />
+		<PickUp QuestName="The Turd Problem" QuestId="26075" GiverName="Jibbly Rakit" GiverId="42033" />
+		<Objective QuestName="The Turd Problem" QuestId="26075" Type="KillMob" MobId="4012" KillCount="6" />
+		<TurnIn QuestName="The Turd Problem" QuestId="26075" TurnInName="Jibbly Rakit" TurnInId="42033" />
+		<PickUp QuestName="Spy Infestation" QuestId="26076" GiverName="Jibbly Rakit" GiverId="42033" />
+		<TurnIn QuestName="Spy Infestation" QuestId="26076" TurnInName="Jibbly Rakit" TurnInId="42033" />
+
+		<PickUp QuestName="Final Delivery" QuestId="26077" GiverName="Jibbly Rakit" GiverId="42033" />
+		<If Condition="HasQuest(26077)">
+			<CustomBehavior File="NoCombatMoveTo"  X="1616.239" Y="882.4869" Z="147.7419" />
+			<CustomBehavior File="RunMacro" Macro="/dismount" NumOfTimes="1" WaitTime="1" />
+			<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="2" Text="Please klick on the Baloon" />
+			<CustomBehavior File="WaitTimer" WaitTime="80000" GoalText="Wait to Event ends" />
+		</If>
+		<TurnIn QuestName="Final Delivery" QuestId="26077" TurnInName="General Grebo" TurnInId="42050" />
+		<PickUp QuestName="To Battlescar!" QuestId="26082" GiverName="General Grebo" GiverId="42050" />
+		<If Condition="HasQuest(26082) &amp;&amp; !IsQuestCompleted(26082)">
+			<If Condition="Me.Z &gt; 330">
+				<CustomBehavior File="UseTransport" TransportId="11898" TransportStartX="2036.194" TransportStartY="1198.304" TransportStartZ="451.1766" TransportEndX="2036.194" TransportEndY="1198.304" TransportEndZ="321.8768" WaitAtX="2042.9" WaitAtY="1202.114" WaitAtZ="450.7813" StandOnX="2036.373" StandOnY="1198.388" StandOnZ="451.2166" GetOffX="2029.155" GetOffY="1201.588" GetOffZ="321.2836" />
+			</If>
+			<If Condition="Me.Z &gt; 280">
+				<CustomBehavior File="NoCombatMoveTo"  X="1859.55" Y="1246.446" Z="248.2735" />
+				<CustomBehavior File="NoCombatMoveTo"  X="1831.984" Y="1298.222" Z="167.5786" />
+			</If>
+			<CustomBehavior File="UserSettings" LootMobs="false" HarvestHerbs="false" HarvestMinerals="false"/>
+			<CustomBehavior File="NoCombatMoveTo"  X="1786.707" Y="1357.495" Z="167.4198" />
+			<CustomBehavior File="NoCombatMoveTo"  X="1802.688" Y="1488.294" Z="167.7677" />
+			<CustomBehavior File="MoveTo"  X="1845.66" Y="1572.756" Z="208.8203" />
+			<CustomBehavior File="KillUntilComplete" QuestId="26082" MobId="35150" MobId2="35151" MobId3="35152" X="1895.59" Y="1516.43" Z="208.6599"/>
+			<If Condition="Me.Z &lt; 280">
+			<CustomBehavior File="NoCombatMoveTo" UseMount="false" X="1831.984" Y="1298.222" Z="167.5786" />
+			<CustomBehavior File="NoCombatMoveTo" UseMount="false" X="1859.55" Y="1246.446" Z="248.2735" />
+			<CustomBehavior File="UserSettings" LootMobs="true" HarvestHerbs="true" HarvestMinerals="true"/>
+			</If>
+		</If>	
+		<If Condition="HasQuest(26082) &amp;&amp; IsQuestCompleted(26082) &amp;&amp; Me.Z &lt; 330">
+			<CustomBehavior File="UseTransport" TransportId="11898" TransportStartX="2036.194" TransportStartY="1198.304" TransportStartZ="321.8768" TransportEndX="2036.194" TransportEndY="1198.304" TransportEndZ="451.1766" WaitAtX="2030.969" WaitAtY="1200.841" WaitAtZ="321.2836" StandOnX="2036.373" StandOnY="1198.388" StandOnZ="451.2166" GetOffX="2042.9" GetOffY="1202.114" GetOffZ="450.7813" />
+		</If>
+		
+		<TurnIn QuestName="To Battlescar!" QuestId="26082" TurnInName="General Grebo" TurnInId="42050" />
+		<PickUp QuestName="Proof of Lies" QuestId="26097" GiverName="High Chieftain Cliffwalker" GiverId="42039" />
+		<If Condition="HasQuest(26097) &amp;&amp; Me.Z &gt; 330">
+			<CustomBehavior File="UseTransport" TransportId="11898" TransportStartX="2036.194" TransportStartY="1198.304" TransportStartZ="451.1766" TransportEndX="2036.194" TransportEndY="1198.304" TransportEndZ="321.8768" WaitAtX="2042.9" WaitAtY="1202.114" WaitAtZ="450.7813" StandOnX="2036.373" StandOnY="1198.388" StandOnZ="451.2166" GetOffX="2029.155" GetOffY="1201.588" GetOffZ="321.2836" />
+		</If>
+		<If Condition="HasQuest(26097)">
+			<CustomBehavior File="MoveTo"  X="1576.982" Y="1548.913" Z="117.0796" />
+			<CustomBehavior File="MyCTM" X="1581.53" Y="1542.602" Z="119.6102" />
+			<CustomBehavior File="MyCTM" X="1584.685" Y="1547.803" Z="122.714" />
+			<CustomBehavior File="MyCTM" X="1579.123" Y="1549.71" Z="125.5133" />
+			<CustomBehavior File="MyCTM" X="1579.436" Y="1543.582" Z="128.542" />
+			<CustomBehavior File="MyCTM" X="1585.237" Y="1545.217" Z="131.2807" />
+			<CustomBehavior File="MoveTo"  X="1570.283" Y="1541.216" Z="131.5975" />
+		</If>
+		<TurnIn QuestName="Proof of Lies" QuestId="26097" TurnInName="Orthus Cliffwalker" TurnInId="42091" />
+		<PickUp QuestName="Betrayal at the Grove" QuestId="26098" GiverName="Orthus Cliffwalker" GiverId="42091" />
+		<If Condition="HasQuest(26098) &amp;&amp; Me.X &lt; 1800">
+			<CustomBehavior File="MoveTo"  X="1585.237" Y="1545.217" Z="131.2807" />
+			<CustomBehavior File="MyCTM" X="1579.436" Y="1543.582" Z="128.542" />
+			<CustomBehavior File="MyCTM" X="1579.123" Y="1549.71" Z="125.5133" />
+			<CustomBehavior File="MyCTM" X="1584.685" Y="1547.803" Z="122.714" />
+			<CustomBehavior File="MyCTM" X="1581.53" Y="1542.602" Z="119.6102" />
+			<CustomBehavior File="MyCTM" X="1576.982" Y="1548.913" Z="117.0796" />
+		</If>
+		<If Condition="HasQuest(26098) &amp;&amp; Me.Z &lt; 330">
+			<CustomBehavior File="UseTransport" TransportId="11898" TransportStartX="2036.194" TransportStartY="1198.304" TransportStartZ="321.8768" TransportEndX="2036.194" TransportEndY="1198.304" TransportEndZ="451.1766" WaitAtX="2030.969" WaitAtY="1200.841" WaitAtZ="321.2836" StandOnX="2036.373" StandOnY="1198.388" StandOnZ="451.2166" GetOffX="2042.9" GetOffY="1202.114" GetOffZ="450.7813" />
+		</If>	
+		<TurnIn QuestName="Betrayal at the Grove" QuestId="26098" TurnInName="High Chieftain Cliffwalker" TurnInId="42039" />
+		<PickUp QuestName="Is This Justice?" QuestId="26099" GiverName="High Chieftain Cliffwalker" GiverId="42039" />
+		<While Condition="HasQuest(26099) &amp;&amp; !IsQuestCompleted(26099)">
+			<CustomBehavior File="WaitTimer" WaitTime="10000" />
+		</While>
+		<TurnIn QuestName="Is This Justice?" QuestId="26099" TurnInName="Masha Cliffwalker" TurnInId="42047" />
+		<PickUp QuestName="The General is Dead" QuestId="26100" GiverName="Masha Cliffwalker" GiverId="42047" />
+		<If Condition="HasQuest(26100) &amp;&amp; Me.X &gt; 2000">
+			<CustomBehavior File="UseTaxi"  MobId="35141" DestName="gar Fortress" X="2189.95" Y="1240.516" Z="465.6548"  />
+		</If>
+		<TurnIn QuestName="The General is Dead" QuestId="26100" TurnInName="Overlord Krom'gar" TurnInId="41023" />
+			<CustomBehavior File="UserDialog" AllowBotStop="True" SoundCue="Exclamation" SoundCueInterval="2" Text="IF You don't have the Achivement, please post it and i will ad more quests!" />
+
+				<CustomBehavior File="LoadProfile" ProfileName="Dustwallow Marsch.xml" />
+
+
+
+	</QuestOrder>
+
+
+   
+</HBProfile>
